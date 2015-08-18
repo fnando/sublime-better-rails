@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+t.belongs_to :${1:association_singular}${2:, null: ${3:false}}${4:, foreign_key: true}$0
+]]></content>
+  <tabTrigger>tbt</tabTrigger>
+  <scope>meta.rails.migration.create_table, meta.rails.migration.change_table</scope>
+  <description>t.belongs_to</description>
+</snippet>

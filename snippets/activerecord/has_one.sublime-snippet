@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+has_one :${1:attribute}
+]]></content>
+  <tabTrigger>ho</tabTrigger>
+  <scope>meta.rails.model</scope>
+</snippet>

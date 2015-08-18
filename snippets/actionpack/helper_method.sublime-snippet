@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+helper_method :${method_name}
+]]></content>
+  <tabTrigger>hm</tabTrigger>
+  <scope>meta.rails.controller</scope>
+</snippet>

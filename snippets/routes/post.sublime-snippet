@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+post '${1:path}', to: '${2:controller#action}'${3:, as: '${4:name}'}
+]]></content>
+  <tabTrigger>post</tabTrigger>
+  <scope>meta.rails.routes</scope>
+</snippet>

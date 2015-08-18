@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+validates_size_of :${1:attribute}${2:, minimum: ${3:min}}${4:, maximum: ${5:max}}
+]]></content>
+  <tabTrigger>vs</tabTrigger>
+  <scope>meta.rails.model</scope>
+</snippet>

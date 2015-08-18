@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+t.timestamps null: false$0
+]]></content>
+  <tabTrigger>tt</tabTrigger>
+  <scope>meta.rails.migration.create_table, meta.rails.migration.change_table</scope>
+  <description>t.timestamps</description>
+</snippet>

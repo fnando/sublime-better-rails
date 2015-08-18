@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+match '${1:path}', to: '${2:controller#action}', via: %i[${3:methods}]${4:, as: '${5:name}'}
+]]></content>
+  <tabTrigger>match</tabTrigger>
+  <scope>meta.rails.routes</scope>
+</snippet>

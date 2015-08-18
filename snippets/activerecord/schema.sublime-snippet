@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+ActiveRecord::Schema.define(version: 0) do
+  $0
+end
+]]></content>
+  <tabTrigger>schema</tabTrigger>
+  <description>ActiveRecord::Schema</description>
+  <scope>source.ruby</scope>
+</snippet>

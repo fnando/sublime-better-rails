@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+def update
+  $0
+end
+]]></content>
+  <tabTrigger>defu</tabTrigger>
+  <scope>meta.rails.controller</scope>
+</snippet>

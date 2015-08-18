@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+namespace :${1:ns} do
+  $0
+end
+]]></content>
+  <tabTrigger>ns</tabTrigger>
+  <scope>meta.rails.routes</scope>
+</snippet>

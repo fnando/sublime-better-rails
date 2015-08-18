@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+t.jsonb :${1:column}${2:, null: ${3:false}}${4:, default: "{}"}$0
+]]></content>
+  <tabTrigger>tj</tabTrigger>
+  <scope>meta.rails.migration.create_table, meta.rails.migration.change_table</scope>
+  <description>t.jsonb</description>
+</snippet>

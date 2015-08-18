@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+validates_with ${1:Validator}
+]]></content>
+  <tabTrigger>vw</tabTrigger>
+  <scope>meta.rails.model</scope>
+</snippet>

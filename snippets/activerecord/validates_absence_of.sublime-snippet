@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+validates_absence_of :${1:attribute}
+]]></content>
+  <tabTrigger>va</tabTrigger>
+  <scope>meta.rails.model</scope>
+</snippet>

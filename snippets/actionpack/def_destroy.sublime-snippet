@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+def destroy
+  $0
+end
+]]></content>
+  <tabTrigger>defd</tabTrigger>
+  <scope>meta.rails.controller</scope>
+</snippet>

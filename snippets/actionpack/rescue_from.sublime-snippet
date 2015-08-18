@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+rescue_from ${1:ErrorClass}${2:, with: :${3:method_name}}${4: do |exception|
+  $0
+end}
+]]></content>
+  <tabTrigger>rf</tabTrigger>
+  <scope>meta.rails.controller</scope>
+</snippet>

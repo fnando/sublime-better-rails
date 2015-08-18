@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+class ${1:MigrationClass} < ActiveRecord::Migration
+  def change
+    $0
+  end
+end
+]]></content>
+  <tabTrigger>migration</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>ActiveRecord migration</description>
+</snippet>

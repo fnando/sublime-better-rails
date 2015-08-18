@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+scope ${1:options} do
+  $0
+end
+]]></content>
+  <tabTrigger>scope</tabTrigger>
+  <scope>meta.rails.routes</scope>
+</snippet>

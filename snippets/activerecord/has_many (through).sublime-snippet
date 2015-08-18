@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+has_many :${1:attribute}, through: ${2:association}${3:, source: ${4:source}}
+]]></content>
+  <tabTrigger>hmt</tabTrigger>
+  <scope>meta.rails.model</scope>
+</snippet>
