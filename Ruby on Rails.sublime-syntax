@@ -77,5 +77,4 @@ contexts:
       scope: support.function.activerecord.rails
     - match: \b(alias_method_chain|alias_attribute|delegate|cattr_accessor|mattr_accessor|returning)\b
       scope: support.function.activesupport.rails
-      scope: support.function.ruby.test
     - include: 'scope:source.ruby'
