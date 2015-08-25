@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-root '${1:path}'
+root ${TM_QUOTE}${1:path}${TM_QUOTE}
 ]]></content>
   <tabTrigger>root</tabTrigger>
   <scope>meta.rails.routes</scope>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-match '${1:path}', to: '${2:controller#action}', via: %i[${3:methods}]${4:, as: '${5:name}'}
+match ${TM_QUOTE}${1:path}${TM_QUOTE}, to: ${TM_QUOTE}${2:controller#action}${TM_QUOTE}, via: %i[${3:methods}]${4:, as: ${TM_QUOTE}${5:name}${TM_QUOTE}}
 ]]></content>
   <tabTrigger>match</tabTrigger>
   <scope>meta.rails.routes</scope>

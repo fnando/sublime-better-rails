@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-put '${1:path}', to: '${2:controller#action}'${3:, as: '${4:name}'}
+put ${TM_QUOTE}${1:path}${TM_QUOTE}, to: ${TM_QUOTE}${2:controller#action}${TM_QUOTE}${3:, as: ${TM_QUOTE}${4:name}${TM_QUOTE}}
 ]]></content>
   <tabTrigger>put</tabTrigger>
   <scope>meta.rails.routes</scope>

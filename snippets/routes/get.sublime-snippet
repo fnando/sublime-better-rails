@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-get '${1:path}', to: '${2:controller#action}'${3:, as: '${4:name}'}
+get ${TM_QUOTE}${1:path}${TM_QUOTE}, to: ${TM_QUOTE}${2:controller#action}${TM_QUOTE}${3:, as: ${TM_QUOTE}${4:name}${TM_QUOTE}}
 ]]></content>
   <tabTrigger>get</tabTrigger>
   <scope>meta.rails.routes</scope>
