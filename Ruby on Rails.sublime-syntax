@@ -55,14 +55,6 @@ contexts:
             - include: main
         - include: 'scope:source.ruby'
         - include: main
-    - match: '(^\s*)(?=class\s+(?![.a-zA-Z0-9_:]+ControllerTest)(([.a-zA-Z0-9_:]+Test(\s*<\s*[.a-zA-Z0-9_:]+)?)|(<<\s*[.a-zA-Z0-9_:]+)))'
-      comment: Uses lookahead to match classes with the Test suffix; includes 'source.ruby' to avoid infinite recursion
-      push:
-        - meta_scope: meta.rails.unit_test
-        - match: ^\1(?=end)\b
-          pop: true
-        - include: 'scope:source.ruby'
-        - include: main
     - match: (^\s*)(?=Rails\.application\.routes\.draw do)
       comment: Uses Rails.application.routes.draw to determine it is a routes file; includes 'source.ruby' to avoid infinite recursion
       push:
