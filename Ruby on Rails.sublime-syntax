@@ -23,7 +23,7 @@ contexts:
           pop: true
         - include: 'scope:source.ruby'
         - include: main
-    - match: (^\s*)(?=class\s+.+ActiveRecord::Base)
+    - match: (^\s*)(?=class\s+.+(?:ActiveRecord::Base|ApplicationModel))
       comment: Uses lookahead to match classes that (may) inherit from ActiveRecord::Base; includes 'source.ruby' to avoid infinite recursion
       push:
         - meta_scope: meta.rails.model
