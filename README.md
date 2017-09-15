@@ -44,6 +44,13 @@ By the way, there is a [Better Ruby](https://github.com/fnando/better-ruby-for-s
     },
 
     {
+      "syntax": "Better Rails/Ruby on Rails",
+      "rules": [
+          {"function": {"source": "ApplySyntax.as_plugins.is_rails_file"}}
+      ]
+    },
+
+    {
       "syntax": "Better Ruby/Ruby",
       "extensions": ["thor", "rake", "simplecov", "jbuilder", "rb", "podspec", "rabl"],
       "rules": [
