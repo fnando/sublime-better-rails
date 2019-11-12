@@ -2,17 +2,19 @@
 
 This is a custom Ruby package, that includes snippets, custom syntax highlighters and more!
 
-**ATTENTION:** This plugin uses the new `.sublime-syntax` format, which is only available on [Dev Channel](http://www.sublimetext.com/3dev) Build 3084.
+## Installation
 
-## Install
+### Setup Package Control Repository
 
-First of all, add this custom repository: <https://gist.github.com/fnando/56393d3900af55bf9e94>; just follow the instructions.
-
-Then, disable the built-in `Rails` package using Package Control.
-
-Finally, install the `Better Rails` package. Also, install the [ApplySyntax](https://github.com/facelessuser/ApplySyntax) package and use the following settings.
+1. Follow the instructions from https://sublime.fnando.com.
+2. Open the command pallete, run “Package Control: Install Package“, then search for “Rubocop Formatter“.
+3. Install the [ApplySyntax](https://github.com/facelessuser/ApplySyntax) package and use the settings below.
 
 By the way, there is a [Better Ruby](https://github.com/fnando/better-ruby-for-sublime-text) package as well.
+
+### Git Clone
+
+Clone this repository into the Sublime Text “Packages” directory, which is located where ever the “Preferences” -> “Browse Packages” option in sublime takes you.
 
 ## ApplySyntax configuration
 
