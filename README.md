@@ -46,6 +46,13 @@ Clone this repository into the Sublime Text “Packages” directory, which is l
     },
 
     {
+      "syntax": "Better Rails/Ruby on Rails",
+      "rules": [
+          {"function": {"source": "ApplySyntax.as_plugins.is_rails_file"}}
+      ]
+    },
+
+    {
       "syntax": "Better Ruby/Ruby",
       "extensions": ["thor", "rake", "simplecov", "jbuilder", "rb", "podspec", "rabl"],
       "rules": [
